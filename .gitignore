@@ -43,5 +43,12 @@ qtcreator-*
 # Emacs
 .#*
 
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.vim
+.netrwhist
+tags
+
 # Catkin custom files
 CATKIN_IGNORE
