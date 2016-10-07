@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 
-import roslib; roslib.load_manifest('smach_tutorials')
+#import roslib; roslib.load_manifest('smach_tutorials')
 import rospy
 import smach
 import smach_ros
 
-from smach_tutorials.msg import TestAction, TestGoal
+#from smach_tutorials.msg import TestAction, TestGoal
+from smach_tutorial.msg import TestAction, TestGoal
 from actionlib import *
 from actionlib_msgs.msg import *
 

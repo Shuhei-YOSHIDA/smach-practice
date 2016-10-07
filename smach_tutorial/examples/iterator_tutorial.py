@@ -2,8 +2,8 @@
 ## %Tag(FULLTEXT)%
 
 
-import roslib; roslib.load_manifest('smach')
-roslib.load_manifest('smach_ros')
+#import roslib; roslib.load_manifest('smach')
+#roslib.load_manifest('smach_ros')
 import rospy
 
 import smach
